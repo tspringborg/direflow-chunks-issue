@@ -1,10 +1,15 @@
-This component was bootstrapped with [Direflow](https://direflow.io).
-
 # Direflow Chunk Issue
 > demo for direflow issue
 
-```html
-<direflow-chunk-issue></direflow-chunk-issue>
-```
+To test:
+```bash
+npm install
 
-Use this README to describe your Direflow Component
+npm run build
+```
+Will successfully build `direflowBundle.js` but exits with error on
+```
+File sizes after gzip:
+
+ENOENT: no such file or directory, open '**/direflow-chunk-issue/build/10.js'
+```
